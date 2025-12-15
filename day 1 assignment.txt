@@ -1,0 +1,17 @@
+Basic Java assignment
+1. How Java differs from other programming language like C?
+java is  object oriented programing language.
+java is os independent/platform independent language.
+
+c is a structure programing language.
+c is a os dependent/platform dependent language
+
+2. How to check the version of java in command prompt?
+          java -version
+
+3. If i write a java program in Linux OS, is it possible to run in Windows OS? possible means why it is possible?
+  java is a platform independent language.it contains jvm( java virtual machine).
+  so write once run anywhere
+ 
+4. Why we are using Selenium with Java instead of other combination like Selenium + Ruby or Selenium+ Python?
+many companies use  selenium+java.so it will provide more community support & learning resourses
