@@ -1,0 +1,16 @@
+1. What are Primitive and Non-Primitive Datatypes?
+    Primitive Data types:
+       premitive data types are build in java and stores single value
+       eg: int,short,byte
+
+Non-Primitive Datatypes:
+Non premitive data types are not predefined in java and stores referense to object.
+  eg: string,array
+
+
+2. I have a number 500 which needs to be stored in a variable. Which datatype you need to choose and why?
+
+    i have choose int.
+    because int is faster and default choice for whole numbers.
+   int datatype is most commonly used. 
+  shall we use short (data type) but it is used rarly for low memory purpose.
