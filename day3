@@ -1,0 +1,29 @@
+1. Find a number is Odd or Even using Ternary and Arithmetic Operators
+public class question1 {
+public static void main(String[] args) {
+		//ternary operator
+		int num1=6;
+		String	ans =(num1%2==0)? "Even":"Odd";
+		System.out.println(ans);
+		
+		}
+
+}
+
+2. Write program using Logical Operators
+
+  public class question2{
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	 int num1=10;
+     int num2=5;
+     
+     if(num1!=num2){
+     System.out.println("true");
+      }
+      else{
+       System.out.println("false");
+      }
+
+}
+}
