@@ -1,0 +1,73 @@
+1. Use if-else to find the greatest of 3 numbers ( a=10,b=23,c=5).
+  public class question1 {
+  public static void main(String[] args) {
+	int a=10;
+		int b=5;
+		int c=23;
+		if((a>b)&&(a>c)) {
+			System.out.println("a is greatest");
+		}
+		else if((b>c)&&(b>a)) {
+			System.out.println("b is greatest");
+		}
+		else if((c>a)&&(c>b)) {
+			System.out.println("c is greatest");
+		}
+		}
+}
+
+
+2. Implement a Calculator using Switch statement.
+import java.util.Scanner;
+
+public class question2 {
+
+	public static void main(String[] args) {
+
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter the value of s");
+		String s=scan.nextLine();
+		System.out.println("please enter a value");
+		int a=scan.nextInt();
+		System.out.println("please enter b value");
+		int b=scan.nextInt();
+		
+		scan.close();
+		switch(s) {
+		case "add" :
+			System.out.println(a+b);
+			break;
+		case "sub":
+			System.out.println(a-b);
+			break;
+		case "multiple":
+			System.out.println(a*b);
+			break;
+		case "division":
+			System.out.println(a/b);
+			default:
+				System.out.println("number");
+			}
+		}
+		}
+3.Print only even numbers between 1 to 20 using for loop
+ public class question3  {
+public static void main(String[] args) {
+	for (int i = 1; i<=20 ; i++) {
+	        if (i % 2 == 0) {
+	           System.out.println(i);
+	            }
+	        }
+		}
+}
+4.Print only odd numbers using continue statement in a loop.
+public class question4 {
+public static void main(String[] args) {
+		for(int i=1; i>=0; i++) {
+		 if (i % 2 != 0) {
+		System.out.println(i);
+		}
+		 
+	}
+	}
+}
