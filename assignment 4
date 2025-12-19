@@ -1,0 +1,36 @@
+1.Get input from user for salary, if the salary is below 10,000 display as unskilled labour and 
+if salary is between 11,000 to 15,000 display as skilled labour. 
+If salary is above 15,000 display as manager. The user gives input as whole number
+import java.util.Scanner;
+public class assignment4 {
+public static void main(String[] args) {
+	Scanner scan=new Scanner(System.in);
+	System.out.println("enter the salary");
+	int salary=scan.nextInt();
+	if(salary<10000){
+		System.out.println("unskilled labour");
+	}
+	else if((salary>=11000)&&(salary<=15000)) {
+		System.out.println("skilled labour");
+		}
+	else if(salary>15000) {
+		System.out.println("manager");
+	}
+	else {
+		System.out.println("not a labour");
+	}
+	scan.close();
+		}
+}
+
+2. Using the For-Loop print even numbers like 2,4,6,8 till 20.
+
+public class assignment4 {
+
+	public static void main(String[] args) {
+	for(int a=1;a<=20;a++) {
+       if(a%2==0) { 
+       System.out.println("even numbers:"+a);
+     }
+   }
+		 }}
