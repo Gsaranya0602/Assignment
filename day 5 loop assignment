@@ -1,0 +1,28 @@
+1. Write a program to create String array and print all the values in that array.
+  public class arrayassignment {
+public static void main(String[] args) {
+		String days []= {"monday","tuesday","wednesday","thursday","friday"};
+		for (int i=0;i<days.length;i++) {
+			System.out.println(days[i]);
+		}
+		}
+}
+
+2. Write a sample program for while loop and do-while loop.
+  sample program :Print odd numbers from 1 to 20.using while loop & do while loop.
+       WHILE LOOP:
+  int a=1;
+	while(a<=20) {
+		if(a%2!=0) {
+			System.out.println("odd number from 1to 20:" +a);
+			
+		}a++;
+	}
+		
+	DO WHILE LOOP:
+	int b=1;
+	do {
+		if(b%2!=0) {
+			System.out.println("odd number from  1to 20:" +b);
+		}b++;
+	}while(b<=20);
