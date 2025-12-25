@@ -1,0 +1,61 @@
+//1. Write a sample program for method overloading.
+
+public class Assignment {
+	int  method(int a,int b) {
+		int c=a+b;
+		return c;
+		}
+	String method(String name1,String name2) {
+		String fullname=name1+name2;
+		return fullname;
+	}
+	int method(int a,int b,int m) {
+		int c=a*b*m;
+		return c;
+	}
+	double method(double a,double b) {
+		double c=a-b;
+		return c;
+		}
+	public static void main(String[] args) {
+	Assignment sum=new Assignment();
+	int multiple=sum.method(3,2,4);
+	System.out.println("multiplication value of abc: "+multiple);
+	}
+}
+
+
+2. Create a program with Parent class as Person and 2 child class Student,Employee. 
+The Person class should have method Studying(), Working(). Inherit the child classes as per the appropriate methods.
+ 
+ public class Main{
+	 public static void main(String[] args) {
+			Person school=new Person();//student(child class) object
+			school.studying("she");
+			school.working("santhiya");
+			Employee  office=new Employee ();//employee(child class) object
+			office.studying("he");
+			office.working("hevitha");
+			
+		}
+ }
+  class Person {
+	 void studying(String s) {
+	 	System.out.println(s +" is studying 10th standerd");
+	 	}
+	 void working(String a) {
+	 	System.out.println(a +" is working in my office");
+	 }
+	 	
+	 }
+
+  class Student extends Person{
+
+  }
+  class Employee extends Person {
+
+  }
+
+
+
+
