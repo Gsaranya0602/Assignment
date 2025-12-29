@@ -1,0 +1,46 @@
+1. Write a program for List to store list of floating values and fetch all the values.
+
+import java.util.ArrayList;
+import java.util.List;
+public class ListAssignment {
+
+	public static void main(String[] args) {
+		List<Float> fl = new ArrayList<>();
+		fl.add(3.4f);
+		fl.add(5.7f);
+		fl.add(4.9f);
+		fl.add(8.6f);
+		
+		for (float flvalues : fl) {
+			System.out.println("Enter the float values : " + flvalues);
+			 }
+}
+}
+2. Write a sample program to handle exceptions.
+
+import java.util.ArrayList;
+import java.util.List;
+public class ListAssignment {
+
+	public static void main(String[] args) {
+		List<Float> fl = new ArrayList<>();
+		fl.add(3.4f);
+		fl.add(5.7f);
+		fl.add(4.9f);
+		fl.add(8.6f);
+		try {
+		for (float flvalues : fl) {
+			System.out.println("Enter the float values : " + flvalues);
+			 }
+
+			 System.out.println(fl.get(10)); 
+
+	} catch (IndexOutOfBoundsException ex) {
+
+	    System.out.println("index 10 is not available");
+	}
+
+		
+
+	}
+}
